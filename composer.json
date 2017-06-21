@@ -1,0 +1,11 @@
+{
+	"name": "kevinthant/datatable",
+	"require": {
+		"thant/input-filter": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Thant\\DataTable\\": "src"
+		}
+	}
+}
