@@ -1,5 +1,9 @@
 {
-	"name": "kevinthant/datatable",
+	"name" : "thant/datatable",
+	"authors": [{
+	  "name": "Kevin Thant",
+	  "email": "kevinthant.nyc@gmail.com"
+	}],
 	"require": {
 		"thant/input-filter": "^1.0"
 	},
