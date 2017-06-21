@@ -25,7 +25,10 @@
 			$('#tblData').DataTable({
 				"processing": true,
 				"serverSide": true,
-				"ajax": "./data.php"
+				"ajax": "./data.php",
+				"columnDefs": [
+					{ className: "dt-body-right", "targets": [ 2 ] }
+				]
 			});
 		});
 	</script>
